@@ -1,0 +1,43 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.delete-todo,
+.delete-todo:hover {
+    float: right;
+    cursor: pointer;
+    color: rgb(200, 23, 23);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.error {
+    background-color: red;
+}
+
+todo-list {
+    background-color: brown;
+}
+
+#todo {
+    height: 30px;
+    border-style: none;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 5px;
+}
+
+#messages-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
